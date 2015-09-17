@@ -1,21 +1,22 @@
-mans_name = input("Enter a man's name: ")
-occupation = input("Enter an occupation: ")
-noun1 = input("Enter a noun: ")
-noun2 = input("Enter a noun: ")
-noun3 = input("Enter a noun: ")
-shape = input("Enter a shape: ")
-verb1 = input("Enter a verb: ")
-womans_name = input("Enter a woman's name: ")
-body_part = input("Enter a body part: ")
-verb2 = input("Enter a verb: ")
-noun4 = input("Enter a noun: ")
-#restrant_name = input("Enter a restrant name: ")
-#historic_monument = input("Enter a historic monument: ")
-#verb3 = input("Enter a verb: ")
-#noun5 = input("Enter a noun: ")
-#noun6 = input("Enter a noun: ")
-#noun7 = input("Enter a noun: ")
+stuff = {
+    "mans_name": input("Enter a man's name: "),
+    "occupation": input("Enter an occupation: "),
+    "noun1": input("Enter a noun: "),
+    "noun2": input("Enter a noun: "),
+    "noun3": input("Enter a noun: "),
+    "shape": input("Enter a shape: "),
+    "verb1": input("Enter a verb: "),
+    "womans_name": input("Enter a woman's name: "),
+    "body_part": input("Enter a body part: "),
+    "verb2": input("Enter a verb: "),
+    "noun4": input("Enter a noun: "),
+    "resturant_name": input("Enter a resturant name: "),
+    "historic_monument": input("Enter a historic monument: "),
+    "verb3": input("Enter a verb: "),
+    "noun5": input("Enter a noun: "),
+    "noun6": input("Enter a noun: "),
+}
+ 
 
 
-
-print("{mans_name} is a normal {occupation}. Then, one day, a {noun1} explodes, causing a {noun2} to blow up, and a nearby {noun3} erupts into a {shape} of flames. {mans_name} realizes that he's being chased by the government, who's trying to {verb1} him. While on the run, he teams up with an incredibly attractive woman named {womans_name}, who has an incredible {body_part}.  She may be from the streets, but she can {verb2} like nobody's business. The duo decide to turn the tables on their persuers by blowing up a {noun4}".format()) 
+print("\n{mans_name} is a normal {occupation}. Then, one day, a {noun1} explodes, causing a {noun2} to blow up, and a nearby {noun3} erupts into a {shape} of flames. {mans_name} realizes that he's being chased by the government, who's trying to {verb1} him. While on the run, he teams up with an incredibly attractive woman named {womans_name}, who has an incredible {body_part}.  She may be from the streets, but she can {verb2} like nobody's business. The duo decide to turn the tables on their persuers by blowing up a {noun4}, which triggers a chain reaction, causing the local {noun5}, {resturant_name}, and {historic_monument} to explode. Then, the bad guys' helicopter gets {verb3} by a piece of {noun5} from when the {noun4} exploded, and the helicopter explodes and falls into a {noun6}.".format(**stuff)) 
