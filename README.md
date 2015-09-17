@@ -1,2 +1,0 @@
-# madlibs
-Mad Libs Script
